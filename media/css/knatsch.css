@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* KNATSCH by Jx */
+/*
+FONTS
+font-family: 'Arvo', serif;
+font-family: 'Archivo Black', sans-serif;
+font-family: 'Bangers', cursive;
+font-family: 'Basic', sans-serif;
+font-family: 'Covered By Your Grace', cursive;
+font-family: 'Pirata One', cursive;
+@font-face {
+    font-family: '1454_gutenberg_bibelregular';
+    src: url('1454_gutenberg_bibel-webfont.eot');
+    src: url('1454_gutenberg_bibel-webfont.eot?#iefix') format('embedded-opentype'),
+         url('1454_gutenberg_bibel-webfont.woff') format('woff'),
+         url('1454_gutenberg_bibel-webfont.ttf') format('truetype'),
+         url('1454_gutenberg_bibel-webfont.svg#1454_gutenberg_bibelregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*/
+*{
+	
+	font-family: 'Bangers', cursive;
+	color:#222222;
+}
+body{
+	margin:0;
+}
+#page {
+	margin:auto;
+	width: 75%;
+}
+.clear{
+	height:1px;
+	clear:both;
+	display:block;
+	margin-top:-1px;
+	overflow:hidden;
+}
+/*
+.spr{
+	text-indent:-9000px;
+	display:block;
+}
+#page{
+	width:90%;
+	margin:0 auto;
+	max-width:1000px;
+	padding:10px 20px;
+}
+header{
+	background:url(../img/bg_knatsch.jpg) top center no-repeat;
+	height:280px;
+}
+*/
+header{
+	background: #FFF;
+}
+header h1{width: 250px;float:left;}
+nav a{
+	height:42px;
+	float:left;
+}
+/*
+.btn{background:url(../img/btn_knatsch.png) no-repeat;margin:0 5px}
+
+.btn.home{background-position:0 -5px;width:70px}
+.btn.agenda{background-position:0 -55px;width:90px}
+.btn.formacao{background-position:0 -105px;width:120px}
+.btn.videos{background-position:0 -155px;width:80px}
+.btn.imprensa{background-position:0 -205px;width:115px}
+.btn.contato{background-position:0 -250px;width:95px}
+
+.btn.home:hover{background-position:-150px -5px}
+.btn.agenda:hover{background-position:-150px -55px}
+.btn.formacao:hover{background-position:-150px -105px}
+.btn.videos:hover{background-position:-150px -155px}
+.btn.imprensa:hover{background-position:-150px -205px}
+.btn.contato:hover{background-position:-150px -250px}
+*/
+
+.content{
+	margin:10px 0;
+}
+.content .main{
+	float:left;
+	width:90%;
+	max-width:600px;
+	margin-right:5%;
+}
+.content .sidebar{float:right !important}
+.content .main h3{margin-right:10px;}
+.content article{float:left; margin:0 10px 10px 0}
+.content article h4{min-height:40px}
+.content article p(min-height:80px}
+footer{margin:5% 0;border:1px;}
+
+/** AGENDA */
+#agenda ul li small{font-size:120px}
+#agenda ul li a{font-size:10px;text-transform: lowercase;}
