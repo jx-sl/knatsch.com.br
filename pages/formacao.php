@@ -1,10 +1,9 @@
 		<section class="main">
-			<h3>Formacao</h3>
+			<h3>Formação</h3>
 			<p>O Knatsch é</p>
 			<ul>
-				<li>Andi Knatsch - baixo</li>
-				<li>Deivid Knatsch - vocal</li>
-				<li>Ivan Knatsch - guita</li>
-				<li>Júlio Knatsch - batera</li>
+				<li>Andi - bass</li>
+				<li>Ivan - guitar/voice</li>
+				<li>Júlio - drums</li>
 			</ul>
 		</section>
